@@ -2,7 +2,7 @@
 
 julia_version = "1.13.4"
 manifest_format = "2.1"
-project_hash = "dfaf62626bef0cf7905558e389dafa38a82b0aec"
+project_hash = "9f2a1474dab25601cc5e37df53405d299082e692"
 
 [[deps.ASL_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
@@ -147,7 +147,7 @@ uuid = "a8cc5b0e-0ffa-5ad4-8c14-923d3ee1735f"
 version = "4.2.0"
 
 [[deps.DRMInconel]]
-deps = ["CSV", "DataFrames", "Ipopt", "JuMP", "Plots", "Test"]
+deps = ["CSV", "DataFrames", "Ipopt", "JuMP", "Plots", "Test", "YAML"]
 path = "."
 uuid = "2524f85f-8115-496f-8318-76b7eccb48e1"
 version = "0.1.0"
@@ -1083,6 +1083,13 @@ registries = "General"
 uuid = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 version = "0.34.14"
 
+[[deps.StringEncodings]]
+deps = ["Libiconv_jll"]
+git-tree-sha1 = "b765e46ba27ecf6b44faf70df40c57aa3a547dcb"
+registries = "General"
+uuid = "69024149-9ee7-55f6-a4c4-859efe599b68"
+version = "0.3.7"
+
 [[deps.StringManipulation]]
 deps = ["PrecompileTools", "StyledStrings"]
 git-tree-sha1 = "9e3a02d73a8f0a9be04e677dbef758aab40f8bea"
@@ -1381,6 +1388,13 @@ git-tree-sha1 = "a63799ff68005991f9d9491b6e95bd3478d783cb"
 registries = "General"
 uuid = "c5fb5394-a638-5e4d-96e5-b29de1b5cf10"
 version = "1.6.0+0"
+
+[[deps.YAML]]
+deps = ["Base64", "Dates", "Printf", "StringEncodings"]
+git-tree-sha1 = "8dbf6e221a110f5943d39b39d4aa0d0e0d169bdd"
+registries = "General"
+uuid = "ddb6d928-2868-570f-bddf-ab3f9cf99eb6"
+version = "0.4.18"
 
 [[deps.Zlib_jll]]
 deps = ["Libdl"]
